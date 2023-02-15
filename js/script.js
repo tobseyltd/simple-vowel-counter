@@ -28,7 +28,7 @@ document.getElementById('submit-phrase').onclick = () => {
         });
     };
 
-    document.getElementById('result').innerHTML += `${counter} Vowels found.`;
+    document.getElementById('result').innerHTML = `${counter} Vowels found.`;
     checkAgain();
 };
 

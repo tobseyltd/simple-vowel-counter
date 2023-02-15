@@ -19,6 +19,7 @@ button {
     height: 4rem;
     padding: 0 2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #result-field {
